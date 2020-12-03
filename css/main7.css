@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	width: 1905px;
+	background-image: url("../images/black pattern.png");
+	font-family: "SFU Futura";
+}
+
+.menu
+{
+	width: 1905px;
+	height: 53px;
+	background-image: url("../images/white pattern.png");
+}
+
+
+.bang1
+{
+	width: 1905px;
+	height: 1000px;
+}
+
+.anh1
+{
+	height: 300px;
+	width: 800px;
+	margin: auto;
+	float: left;
+}
+
+.anh1 img
+{
+	width: 700px;
+	height: 250px;
+	margin-top:  350px;
+	margin-left: 50px
+}
+
+.doan1
+{
+	width: 500px;
+	height: 400px;
+	float: right;
+	margin-top: 320px;
+	margin-right: 250px;
+}
+
+.doan1 p
+{
+	font-size: 20px;
+	color: #fff;
+}
+
+.bang2
+{
+	width: 1905px;
+	height: 930px;
+	background-image: url("../images/white pattern.png");
+}
+
+.thanhvien1
+{
+	height: 400px;
+}
+.thanhvien1 img
+{
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+
+.thanhvien1 h1
+{
+	font-family: "SFU Futura";
+	font-size: 45px;
+	margin-top: -230px;
+	margin-left: 530px;
+	color: #414040;
+}
+
+.thanhvien1 p
+{
+	font-family: "SFU Futura";
+	font-size: 30px;
+	margin-top: 0px;
+	margin-left: 530px;
+	color: #414040;
+}
+
+.thanhvien2
+{
+	height: 400px;
+}
+.thanhvien2 img
+{
+	width: 300px;
+	height: 290px;
+	margin-top: 70px;
+	margin-left: 1400px;
+}
+
+.thanhvien2 h1
+{
+	font-family: "SFU Futura";
+	font-size: 45px;
+	margin-top: -200px;
+	margin-left: 900px;
+	color: #414040;
+}
+
+.thanhvien2 p
+{
+	font-family: "SFU Futura";
+	font-size: 30px;
+	margin-top: 0px;
+	margin-left: 900px;
+	color: #414040;
+}
+
+.bang4
+{
+	height: 500px;
+	background-image: url("../images/black pattern.png");
+}
+.pic2
+{
+	width: 300px;
+	height: 200px;
+}
+.pic2 p
+{
+	color: #fff;
+	margin-top: 30px;
+	padding-left: 70px;
+	width: 100%;
+	font-family: "SFU Futura";
+	font-size: 18px;
+}
+
+.pic2 img
+{
+	margin-top: 150px;
+	margin-left: 200px;
+}
+
+.text
+{
+	width: 900px;
+	height: 100px;
+	margin-left: 900px;
+	margin-top: -50px;
+}
+
+.social
+{
+	width: 50px;
+	height: 50px;
+	margin-top: 100px;
+	margin-left: 250px;
+	float: left;
+}
+.social img
+{
+	margin: 10%;
+	float: left;
+}
+
+.social img:hover
+{
+	opacity: 0.125;
+}
+
+ul1
+{
+	list-style: none;
+	color: #fff;
+}
+
+ul1 li1
+{
+	float: left;
+	padding: 10px 30px 10px 30px;
+	font-family: "SFU Futura";
+	font-size: 30px;
+	
+}

@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image: url("../images/white pattern.png");
+	width: 1905px;
+}
+.menu
+{
+	width: 1905px;
+	height: 53px;
+	background-image: url("../images/white pattern.png");
+}
+
+
+.bang1
+{
+	height: 1000px;
+	background-image: url("../images/black pattern.png");
+	margin: 0;
+    font-family: "SFU Futura";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  }
+
+/* Price Cards */
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card
+{
+  margin: 10px 40px;
+  min-width: 300px;
+  padding: 0;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.08), 
+              0 2px 2px rgba(0,0,0,0.12), 
+              0 4px 4px rgba(0,0,0,0.16), 
+              0 8px 8px rgba(0,0,0,0.20);
+}
+  .card-title {
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+  
+  .card-top 
+{
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 30px 20px;
+    height: 200px;
+    background-color: #F6B247;
+    color: #414040;
+    border-radius: 20px 20px 0 0; 
+    }
+  
+  .card-bottom 
+{
+    padding: 50px;
+    height: 300px;
+    background-image: url("../images/white pattern.png");
+    color: #414040;
+    border-radius: 0 0 20px 20px;
+}
+
+    p {
+      line-height: 30px;
+      font-weight: 600;
+    }
+    
+    button
+{
+      background-color: #5497D1;
+      border: none;
+      padding: 10px 30px;
+      color: #fff;
+      border-radius: 25px;
+      font-weight: 900;
+    }
+    
+  
+
+.hot 
+{
+  position: absolute;
+  height: 40px;
+  background-color: #FFF;
+  color: #414040;
+  padding: 8px 40px;
+  font-size: 14px;
+  font-weight: 900;
+  left: 75%;
+  top: 0;
+  transform: rotate(45deg);
+}
+
+
+  button
+{
+    background-color: #5497D1;
+    cursor: pointer;
+	margin: auto;
+	
+  }
+  
+button:hover
+{
+	background-color: #fff;
+	color: black;
+}
+
+ .hot
+{
+	color: red;
+}
+  
+
+.price
+{
+  margin: 0 5px 10px 5px;
+  font-size: 60px;
+  font-weight: 900;
+  position: relative;
+}
+
